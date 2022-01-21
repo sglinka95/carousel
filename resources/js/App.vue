@@ -1,6 +1,6 @@
 <template>
     <div class="container p-4"> 
-        <carousel :slides="products" :interval="3000" controls />
+        <carousel :slides="products" :interval="5000" controls />
     </div>
 </template>
  

@@ -57,7 +57,6 @@ export default {
           ? this.currentSlide + step
           : this.slides.length - 1;
       this.setCurrentSlide(index);
-      //this.direction = "left";
       this.back = true;
       this.startSlide();
     },
@@ -68,7 +67,6 @@ export default {
           : 0;
       this.setCurrentSlide(index);
       this.back = false;
-     // this.direction = "right";
     },
     next(step = 1) {
       this._next(step);
